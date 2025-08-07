@@ -1,7 +1,7 @@
-diffusers @ git+https://github.com/TMElyralab/diffusers.git@tme
-ip_adapter @ git+https://github.com/tencent-ailab/IP-Adapter.git@main
-clip @ git+https://github.com/openai/CLIP.git@main
-controlnet_aux @ git+https://github.com/TMElyralab/controlnet_aux.git@tme
+# diffusers @ git+https://github.com/TMElyralab/diffusers.git@tme
+# ip_adapter @ git+https://github.com/tencent-ailab/IP-Adapter.git@main
+# clip @ git+https://github.com/openai/CLIP.git@main
+# controlnet_aux @ git+https://github.com/TMElyralab/controlnet_aux.git@tme
 # tensorflow==2.12.0
 # tensorboard==2.12.0
 # torch==2.0.1  --index-url https://download.pytorch.org/whl/cu118 
@@ -33,7 +33,8 @@ librosa
 ffmpeg
 easydict
 webp
-mediapipe==0.10.3
+# mediapipe==0.10.3
+mediapipe==0.10.5
 cython==3.0.2
 easydict
 gdown
